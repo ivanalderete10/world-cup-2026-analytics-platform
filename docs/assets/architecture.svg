@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="360" viewBox="0 0 1400 360">
+<defs>
+ <linearGradient id="bg" x1="0" x2="1"><stop stop-color="#06192F"/><stop offset="1" stop-color="#0B3153"/></linearGradient>
+ <linearGradient id="b" x1="0" x2="1"><stop stop-color="#0D8CFF"/><stop offset="1" stop-color="#42D7FF"/></linearGradient>
+</defs>
+<rect width="1400" height="360" rx="28" fill="url(#bg)"/>
+<text x="700" y="55" text-anchor="middle" fill="#F7FBFF" font-size="30" font-family="Arial" font-weight="700">Solution Architecture</text>
+<g font-family="Arial" text-anchor="middle">
+ <g transform="translate(70 110)"><rect width="210" height="150" rx="18" fill="#0A223B" stroke="#42D7FF" stroke-width="2"/><text x="105" y="55" fill="#42D7FF" font-size="25" font-weight="700">DATA SOURCES</text><text x="105" y="92" fill="#D6E5F3" font-size="18">CSV • Excel • API</text><text x="105" y="120" fill="#A8BED2" font-size="15">Historical matches & ELO</text></g>
+ <g transform="translate(350 110)"><rect width="210" height="150" rx="18" fill="#0A223B" stroke="#42D7FF" stroke-width="2"/><text x="105" y="55" fill="#42D7FF" font-size="25" font-weight="700">PYTHON ETL</text><text x="105" y="92" fill="#D6E5F3" font-size="18">Pandas • Cleaning</text><text x="105" y="120" fill="#A8BED2" font-size="15">Feature engineering</text></g>
+ <g transform="translate(630 110)"><rect width="210" height="150" rx="18" fill="#0A223B" stroke="#42D7FF" stroke-width="2"/><text x="105" y="55" fill="#42D7FF" font-size="25" font-weight="700">SQL LAYER</text><text x="105" y="92" fill="#D6E5F3" font-size="18">SQL Server • SQLite</text><text x="105" y="120" fill="#A8BED2" font-size="15">Views & procedures</text></g>
+ <g transform="translate(910 110)"><rect width="210" height="150" rx="18" fill="#0A223B" stroke="#42D7FF" stroke-width="2"/><text x="105" y="55" fill="#42D7FF" font-size="25" font-weight="700">ANALYTICS</text><text x="105" y="92" fill="#D6E5F3" font-size="18">ELO • Power Score</text><text x="105" y="120" fill="#A8BED2" font-size="15">Monte Carlo models</text></g>
+ <g transform="translate(1190 110)"><rect width="150" height="150" rx="18" fill="url(#b)"/><text x="75" y="55" fill="#FFFFFF" font-size="25" font-weight="700">POWER BI</text><text x="75" y="92" fill="#FFFFFF" font-size="18">Dashboard</text><text x="75" y="120" fill="#E9F8FF" font-size="15">Decision support</text></g>
+</g>
+<g stroke="#42D7FF" stroke-width="5" fill="none">
+ <path d="M285 185 H335"/><path d="M565 185 H615"/><path d="M845 185 H895"/><path d="M1125 185 H1175"/>
+</g>
+<g fill="#42D7FF"><path d="M335 185 l-14 -9 v18z"/><path d="M615 185 l-14 -9 v18z"/><path d="M895 185 l-14 -9 v18z"/><path d="M1175 185 l-14 -9 v18z"/></g>
+</svg>
