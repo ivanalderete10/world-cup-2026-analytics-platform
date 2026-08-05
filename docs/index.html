@@ -2,9 +2,218 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>World Cup 2026 Analytics Platform</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="World Cup 2026 Analytics Platform: Python, SQL Server, Power BI, ELO ratings, Power Score and Monte Carlo simulation.">
+  <meta name="theme-color" content="#06192f">
+  <title>World Cup 2026 Analytics Platform | Iván Alderete</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="site.css">
 </head>
 <body>
-  <h1>World Cup 2026 Analytics Platform</h1>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+
+  <header class="site-header">
+    <a href="#top" class="brand" aria-label="World Cup Analytics home">
+      <img src="assets/logo.svg" alt="" class="brand-logo">
+      <span>
+        <strong>WORLD CUP 2026</strong>
+        <small>ANALYTICS PLATFORM</small>
+      </span>
+    </a>
+
+    <nav class="desktop-nav" aria-label="Primary navigation">
+      <a href="#overview" data-en="Overview" data-es="Resumen">Overview</a>
+      <a href="#architecture" data-en="Architecture" data-es="Arquitectura">Architecture</a>
+      <a href="#dashboard" data-en="Dashboard" data-es="Dashboard">Dashboard</a>
+      <a href="#stack" data-en="Technology" data-es="Tecnología">Technology</a>
+      <a href="#author" data-en="Author" data-es="Autor">Author</a>
+    </nav>
+
+    <div class="header-actions">
+      <button id="langToggle" class="language-button" type="button" aria-label="Switch language">ES</button>
+      <a class="button button-small button-outline" href="https://github.com/ivanalderete10/world-cup-2026-analytics-platform" target="_blank" rel="noopener">
+        GitHub ↗
+      </a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow" data-en="END-TO-END SPORTS ANALYTICS" data-es="ANÁLISIS DEPORTIVO DE PUNTA A PUNTA">END-TO-END SPORTS ANALYTICS</span>
+          <h1>
+            <span data-en="From historical football data" data-es="De datos históricos de fútbol">From historical football data</span>
+            <em data-en="to predictive decisions." data-es="a decisiones predictivas.">to predictive decisions.</em>
+          </h1>
+          <p class="hero-summary"
+             data-en="A complete analytics platform built with Python, SQL Server and Power BI to rank national teams, simulate matches and estimate World Cup 2026 tournament probabilities."
+             data-es="Una plataforma integral construida con Python, SQL Server y Power BI para clasificar selecciones, simular partidos y estimar probabilidades del Mundial 2026.">
+            A complete analytics platform built with Python, SQL Server and Power BI to rank national teams, simulate matches and estimate World Cup 2026 tournament probabilities.
+          </p>
+
+          <div class="hero-buttons">
+            <a class="button button-primary" href="#dashboard" data-en="Explore dashboard" data-es="Explorar dashboard">Explore dashboard</a>
+            <a class="button button-secondary" href="https://github.com/ivanalderete10/world-cup-2026-analytics-platform/blob/main/README.md" target="_blank" rel="noopener" data-en="Read documentation" data-es="Ver documentación">Read documentation</a>
+          </div>
+
+          <div class="hero-meta">
+            <span>Python</span><span>SQL Server</span><span>Power BI</span><span>Machine Learning</span>
+          </div>
+        </div>
+
+        <div class="hero-media">
+          <div class="hero-image-wrap">
+            <img src="assets/dashboard-executive.png" alt="World Cup 2026 Power BI executive dashboard">
+          </div>
+          <div class="floating-stat stat-a"><strong>49,472</strong><small data-en="historical matches" data-es="partidos históricos">historical matches</small></div>
+          <div class="floating-stat stat-b"><strong>81K+</strong><small data-en="score scenarios" data-es="escenarios de resultado">score scenarios</small></div>
+          <div class="floating-stat stat-c"><strong>48</strong><small data-en="World Cup teams" data-es="selecciones del Mundial">World Cup teams</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="metrics-strip" aria-label="Project metrics">
+      <article><strong>1872–2026</strong><span data-en="Historical coverage" data-es="Cobertura histórica">Historical coverage</span></article>
+      <article><strong>6,678</strong><span data-en="ELO records" data-es="registros ELO">ELO records</span></article>
+      <article><strong>5</strong><span data-en="Dashboard pages" data-es="páginas del dashboard">Dashboard pages</span></article>
+      <article><strong>4</strong><span data-en="SQL layers" data-es="capas SQL">SQL layers</span></article>
+    </section>
+
+    <section class="section" id="overview">
+      <div class="section-heading">
+        <span class="section-index">01</span>
+        <div>
+          <span class="eyebrow" data-en="THE CHALLENGE" data-es="EL DESAFÍO">THE CHALLENGE</span>
+          <h2 data-en="Turning raw sports data into a decision system." data-es="Convertir datos deportivos en un sistema de decisiones.">Turning raw sports data into a decision system.</h2>
+        </div>
+      </div>
+
+      <div class="overview-grid">
+        <div class="overview-copy">
+          <p data-en="International football data is fragmented across historical match results, rankings, team performance and tournament structure. This project integrates those sources into a reproducible analytical workflow."
+             data-es="Los datos del fútbol internacional están fragmentados entre resultados históricos, rankings, rendimiento de selecciones y estructura del torneo. Este proyecto integra esas fuentes en un flujo analítico reproducible.">
+            International football data is fragmented across historical match results, rankings, team performance and tournament structure. This project integrates those sources into a reproducible analytical workflow.
+          </p>
+          <p data-en="The result is an analytics product that supports team comparison, match simulation, projected scorelines and tournament probabilities."
+             data-es="El resultado es un producto analítico que permite comparar selecciones, simular partidos, proyectar marcadores y calcular probabilidades del torneo.">
+            The result is an analytics product that supports team comparison, match simulation, projected scorelines and tournament probabilities.
+          </p>
+        </div>
+
+        <div class="capabilities">
+          <article><span>01</span><h3 data-en="Data Engineering" data-es="Ingeniería de datos">Data Engineering</h3><p data-en="Cleaning, standardization and feature preparation in Python." data-es="Limpieza, estandarización y preparación de variables en Python.">Cleaning, standardization and feature preparation in Python.</p></article>
+          <article><span>02</span><h3 data-en="Relational Modeling" data-es="Modelado relacional">Relational Modeling</h3><p data-en="Normalized facts and dimensions for reusable SQL analytics." data-es="Hechos y dimensiones normalizados para análisis reutilizable en SQL.">Normalized facts and dimensions for reusable SQL analytics.</p></article>
+          <article><span>03</span><h3 data-en="Predictive Analytics" data-es="Analítica predictiva">Predictive Analytics</h3><p data-en="ELO, Power Score and Monte Carlo simulations." data-es="ELO, Power Score y simulaciones de Monte Carlo.">ELO, Power Score and Monte Carlo simulations.</p></article>
+          <article><span>04</span><h3 data-en="Business Intelligence" data-es="Business Intelligence">Business Intelligence</h3><p data-en="Interactive dashboards designed for clear decision-making." data-es="Dashboards interactivos diseñados para decisiones claras.">Interactive dashboards designed for clear decision-making.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="architecture">
+      <div class="section-heading">
+        <span class="section-index">02</span>
+        <div>
+          <span class="eyebrow" data-en="SOLUTION DESIGN" data-es="DISEÑO DE LA SOLUCIÓN">SOLUTION DESIGN</span>
+          <h2 data-en="A connected analytics architecture." data-es="Una arquitectura analítica conectada.">A connected analytics architecture.</h2>
+        </div>
+      </div>
+
+      <div class="architecture-card">
+        <img src="assets/architecture.svg" alt="World Cup analytics solution architecture">
+      </div>
+    </section>
+
+    <section class="section" id="dashboard">
+      <div class="section-heading">
+        <span class="section-index">03</span>
+        <div>
+          <span class="eyebrow" data-en="POWER BI EXPERIENCE" data-es="EXPERIENCIA POWER BI">POWER BI EXPERIENCE</span>
+          <h2 data-en="Five pages designed to explore the tournament." data-es="Cinco páginas para explorar el torneo.">Five pages designed to explore the tournament.</h2>
+        </div>
+      </div>
+
+      <div class="gallery">
+        <div class="gallery-main">
+          <img id="galleryMain" src="assets/dashboard-executive.png" alt="Power BI dashboard preview">
+        </div>
+        <div class="gallery-tabs" role="tablist" aria-label="Dashboard screenshots">
+          <button class="gallery-tab active" data-image="assets/dashboard-executive.png" data-title-en="Executive summary" data-title-es="Resumen ejecutivo">01</button>
+          <button class="gallery-tab" data-image="assets/dashboard-ranking.png" data-title-en="Ranking & analysis" data-title-es="Ranking y análisis">02</button>
+          <button class="gallery-tab" data-image="assets/dashboard-simulator.png" data-title-en="Match simulator" data-title-es="Simulador de partidos">03</button>
+          <button class="gallery-tab" data-image="assets/dashboard-tournament.png" data-title-en="Tournament simulation" data-title-es="Simulación del torneo">04</button>
+          <button class="gallery-tab" data-image="assets/dashboard-trends.png" data-title-en="Evolution & trends" data-title-es="Evolución y tendencias">05</button>
+        </div>
+        <p id="galleryTitle" class="gallery-title">Executive summary</p>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="stack">
+      <div class="section-heading">
+        <span class="section-index">04</span>
+        <div>
+          <span class="eyebrow" data-en="TECHNOLOGY STACK" data-es="STACK TECNOLÓGICO">TECHNOLOGY STACK</span>
+          <h2 data-en="Tools used across the data product lifecycle." data-es="Herramientas utilizadas durante todo el ciclo del producto.">Tools used across the data product lifecycle.</h2>
+        </div>
+      </div>
+
+      <div class="stack-grid">
+        <article><div class="stack-icon">Py</div><h3>Python</h3><p>Pandas, notebooks, ETL and feature engineering.</p></article>
+        <article><div class="stack-icon">SQL</div><h3>SQL Server</h3><p>Schema, bulk load, views and stored procedures.</p></article>
+        <article><div class="stack-icon">BI</div><h3>Power BI</h3><p>Power Query, DAX, visual storytelling and UX.</p></article>
+        <article><div class="stack-icon">ML</div><h3>Predictive Models</h3><p>ELO, Power Score, Poisson and Monte Carlo.</p></article>
+      </div>
+
+      <div class="repo-links">
+        <a href="https://github.com/ivanalderete10/world-cup-2026-analytics-platform/tree/main/notebooks" target="_blank" rel="noopener">Browse notebooks ↗</a>
+        <a href="https://github.com/ivanalderete10/world-cup-2026-analytics-platform/tree/main/sql" target="_blank" rel="noopener">Browse SQL scripts ↗</a>
+        <a href="https://github.com/ivanalderete10/world-cup-2026-analytics-platform/tree/main/docs" target="_blank" rel="noopener">Browse documentation ↗</a>
+      </div>
+    </section>
+
+    <section class="section insights">
+      <div class="section-heading">
+        <span class="section-index">05</span>
+        <div>
+          <span class="eyebrow" data-en="PROJECT VALUE" data-es="VALOR DEL PROYECTO">PROJECT VALUE</span>
+          <h2 data-en="More than a dashboard: a documented data product." data-es="Más que un dashboard: un producto de datos documentado.">More than a dashboard: a documented data product.</h2>
+        </div>
+      </div>
+
+      <div class="insight-grid">
+        <article><strong data-en="Reproducible" data-es="Reproducible">Reproducible</strong><p data-en="Structured notebooks, SQL scripts and environment requirements." data-es="Notebooks ordenados, scripts SQL y requisitos del entorno.">Structured notebooks, SQL scripts and environment requirements.</p></article>
+        <article><strong data-en="Reusable" data-es="Reutilizable">Reusable</strong><p data-en="Normalized tables, analytical views and documented exercises." data-es="Tablas normalizadas, vistas analíticas y ejercicios documentados.">Normalized tables, analytical views and documented exercises.</p></article>
+        <article><strong data-en="Decision-oriented" data-es="Orientado a decisiones">Decision-oriented</strong><p data-en="Models and visuals are organized around questions users can answer." data-es="Los modelos y visuales responden preguntas concretas de los usuarios.">Models and visuals are organized around questions users can answer.</p></article>
+      </div>
+    </section>
+
+    <section class="author-section" id="author">
+      <div class="author-card">
+        <img src="assets/logo.svg" alt="" class="author-logo">
+        <div>
+          <span class="eyebrow" data-en="PROJECT AUTHOR" data-es="AUTOR DEL PROYECTO">PROJECT AUTHOR</span>
+          <h2>Iván Alderete</h2>
+          <p data-en="Data & Operations Analyst with experience in Power BI, Excel, operational reporting and process improvement."
+             data-es="Data & Operations Analyst con experiencia en Power BI, Excel, reporting operativo y mejora de procesos.">
+            Data & Operations Analyst with experience in Power BI, Excel, operational reporting and process improvement.
+          </p>
+          <div class="author-links">
+            <a class="button button-primary" href="https://www.linkedin.com/in/ivan-augusto-alderete-620658252" target="_blank" rel="noopener">LinkedIn ↗</a>
+            <a class="button button-secondary" href="mailto:ivanalderete10@gmail.com" data-en="Contact" data-es="Contacto">Contact</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© 2026 Iván Alderete</span>
+    <span>Data • Insights • Impact</span>
+  </footer>
+
+  <script src="site.js"></script>
 </body>
 </html>
