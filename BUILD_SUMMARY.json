@@ -1,0 +1,244 @@
+{
+  "tables": {
+    "dim_team": {
+      "rows": 425,
+      "columns": [
+        "team_id",
+        "team_name",
+        "team_display",
+        "fifa_code",
+        "iso2",
+        "confederation",
+        "group_code",
+        "flag_url",
+        "is_world_cup_2026"
+      ]
+    },
+    "dim_tournament": {
+      "rows": 200,
+      "columns": [
+        "tournament_id",
+        "tournament_name"
+      ]
+    },
+    "dim_location": {
+      "rows": 2214,
+      "columns": [
+        "location_id",
+        "city",
+        "country"
+      ]
+    },
+    "fact_historical_match": {
+      "rows": 49472,
+      "columns": [
+        "match_id",
+        "match_date",
+        "home_team_id",
+        "away_team_id",
+        "home_score",
+        "away_score",
+        "tournament_id",
+        "location_id",
+        "neutral"
+      ]
+    },
+    "fact_elo_rating": {
+      "rows": 6678,
+      "columns": [
+        "elo_id",
+        "rating_date",
+        "team_id",
+        "rating",
+        "change"
+      ]
+    },
+    "fact_team_modern_stats": {
+      "rows": 261,
+      "columns": [
+        "team_stat_id",
+        "team_id",
+        "model_version",
+        "matches_played",
+        "total_points",
+        "weighted_points",
+        "goals_for",
+        "goals_against",
+        "points_per_match",
+        "weighted_points_per_match",
+        "goal_difference",
+        "gd_per_match",
+        "power_score_v1"
+      ]
+    },
+    "fact_power_ranking": {
+      "rows": 241,
+      "columns": [
+        "ranking_id",
+        "model_version",
+        "ranking_position",
+        "team_id",
+        "power_score",
+        "elo_rating",
+        "weighted_points_per_match",
+        "goal_difference_per_match",
+        "points_per_match",
+        "world_cup_points",
+        "world_cup_goal_difference"
+      ]
+    },
+    "dim_world_cup_team": {
+      "rows": 48,
+      "columns": [
+        "world_cup_team_id",
+        "team_id",
+        "source_team_id",
+        "source_name",
+        "name_fa",
+        "fifa_code",
+        "iso2",
+        "group_code",
+        "source_flag_url"
+      ]
+    },
+    "dim_stadium": {
+      "rows": 16,
+      "columns": [
+        "stadium_id",
+        "source_stadium_id",
+        "stadium_name",
+        "fifa_name",
+        "city",
+        "country",
+        "capacity"
+      ]
+    },
+    "fact_world_cup_match": {
+      "rows": 104,
+      "columns": [
+        "tournament_match_key",
+        "match_id",
+        "match_date",
+        "round_group",
+        "round_type",
+        "matchday",
+        "finished",
+        "time_elapsed",
+        "team_a_id",
+        "team_b_id",
+        "team_a",
+        "team_b",
+        "goals_a",
+        "goals_b"
+      ]
+    },
+    "fact_group_standing": {
+      "rows": 48,
+      "columns": [
+        "standing_id",
+        "group",
+        "rank",
+        "team_id",
+        "team",
+        "fifa_code",
+        "mp",
+        "w",
+        "d",
+        "l",
+        "pts",
+        "gf",
+        "ga",
+        "gd",
+        "team_id_normalized"
+      ]
+    },
+    "fact_best_third_place": {
+      "rows": 12,
+      "columns": [
+        "best_third_id",
+        "third_rank",
+        "group",
+        "team_id",
+        "team",
+        "pts",
+        "gf",
+        "ga",
+        "gd",
+        "qualified_best_8",
+        "team_id_normalized"
+      ]
+    },
+    "fact_match_score_probability": {
+      "rows": 81216,
+      "columns": [
+        "simulation_score_id",
+        "team_a_id",
+        "team_b_id",
+        "score",
+        "goals_a",
+        "goals_b",
+        "score_probability",
+        "expected_goals_a",
+        "expected_goals_b",
+        "win_a_probability",
+        "draw_probability",
+        "win_b_probability"
+      ]
+    },
+    "fact_tournament_probability": {
+      "rows": 48,
+      "columns": [
+        "tournament_probability_id",
+        "team_id",
+        "ranking",
+        "power_score_live",
+        "rating",
+        "round_32_probability",
+        "round_16_probability",
+        "quarterfinal_probability",
+        "semifinal_probability",
+        "final_probability",
+        "champion_probability"
+      ]
+    },
+    "fact_projected_bracket": {
+      "rows": 31,
+      "columns": [
+        "projected_match_id",
+        "match_id",
+        "round_type",
+        "date",
+        "team_a",
+        "team_b",
+        "team_a_display",
+        "team_b_display",
+        "projected_winner",
+        "projected_winner_display",
+        "winner_probability",
+        "decision_rule",
+        "next_match_id",
+        "bracket_side",
+        "team_a_id",
+        "team_b_id",
+        "projected_winner_id"
+      ]
+    },
+    "fact_confederation_probability": {
+      "rows": 6,
+      "columns": [
+        "confederation_probability_id",
+        "confederation",
+        "champion_probability"
+      ]
+    },
+    "model_decision_note": {
+      "rows": 3,
+      "columns": [
+        "note_id",
+        "rule",
+        "description"
+      ]
+    }
+  },
+  "source_files": 94
+}

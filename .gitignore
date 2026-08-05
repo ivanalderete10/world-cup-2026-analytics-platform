@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Local databases / temp
+*.db-journal
+*.sqlite-journal
+*.tmp
+~$*
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Power BI temp files
+*.pbix.autosave

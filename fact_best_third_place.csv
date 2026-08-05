@@ -1,0 +1,13 @@
+﻿best_third_id,third_rank,group,team_id,team,pts,gf,ga,gd,qualified_best_8,team_id_normalized
+1,1,K,42,Democratic Republic of the Congo,4,4,3,1,True,
+2,2,F,23,Sweden,4,7,7,0,True,360.0
+3,3,E,20,Ecuador,4,2,2,0,True,111.0
+4,4,L,47,Ghana,4,2,2,0,True,143.0
+5,5,B,6,Bosnia and Herzegovina,4,5,6,-1,True,39.0
+6,6,J,38,Algeria,4,5,7,-2,True,5.0
+7,7,D,14,Paraguay,4,2,4,-2,True,273.0
+8,8,I,34,Senegal,3,8,6,2,True,322.0
+9,9,G,27,Iran,3,3,3,0,False,168.0
+10,10,A,3,South Korea,3,2,3,-1,False,341.0
+11,11,C,12,Scotland,3,1,4,-3,False,319.0
+12,12,H,32,Uruguay,2,3,4,-1,False,398.0

@@ -1,0 +1,4 @@
+﻿note_id,rule,description
+1,global_favorite_tiebreak,"Si un cruce está dentro de 48%-52%, el modelo desempata usando la probabilidad global de campeón."
+2,head_to_head_probability,"Si el cruce no está parejo, gana el equipo con mayor probabilidad directa."
+3,real_result,"Si el partido ya terminó, se respeta el resultado real."

@@ -1,0 +1,49 @@
+﻿world_cup_team_id,team_id,source_team_id,source_name,name_fa,fifa_code,iso2,group_code,source_flag_url
+1,225.0,1,Mexico,مکزیک,MEX,MX,A,https://flagcdn.com/w80/mx.png
+2,340.0,2,South Africa,آفریقای جنوبی,RSA,ZA,A,https://flagcdn.com/w80/za.png
+3,341.0,3,South Korea,کره جنوبی,KOR,KR,A,https://flagcdn.com/w80/kr.png
+4,93.0,4,Czech Republic,جمهوری چک,CZE,CZ,A,https://flagcdn.com/w80/cz.png
+5,55.0,5,Canada,کانادا,CAN,CA,B,https://flagcdn.com/w80/ca.png
+6,39.0,6,Bosnia and Herzegovina,بوسنی و هرزگوین,BIH,BA,B,https://flagcdn.com/w80/ba.png
+7,282.0,7,Qatar,قطر,QAT,QA,B,https://flagcdn.com/w80/qa.png
+8,361.0,8,Switzerland,سوئیس,SUI,CH,B,https://flagcdn.com/w80/ch.png
+9,42.0,9,Brazil,برزیل,BRA,BR,C,https://flagcdn.com/w80/br.png
+10,232.0,10,Morocco,مراکش,MAR,MA,C,https://flagcdn.com/w80/ma.png
+11,158.0,11,Haiti,هائیتی,HAI,HT,C,https://flagcdn.com/w80/ht.png
+12,319.0,12,Scotland,اسکاتلند,SCO,SCO,C,https://flagcdn.com/w80/gb-sct.png
+13,392.0,13,United States,آمریکا,USA,US,D,https://flagcdn.com/w80/us.png
+14,273.0,14,Paraguay,پاراگوئه,PAR,PY,D,https://flagcdn.com/w80/py.png
+15,20.0,15,Australia,استرالیا,AUS,AU,D,https://flagcdn.com/w80/au.png
+16,381.0,16,Turkey,ترکیه,TUR,TR,D,https://flagcdn.com/w80/tr.png
+17,142.0,17,Germany,آلمان,GER,DE,E,https://flagcdn.com/w80/de.png
+18,91.0,18,Curaçao,کوراسائو,CUW,CW,E,https://flagcdn.com/w80/cw.png
+19,176.0,19,Ivory Coast,ساحل عاج,CIV,CI,E,https://flagcdn.com/w80/ci.png
+20,111.0,20,Ecuador,اکوادور,ECU,EC,E,https://flagcdn.com/w80/ec.png
+21,237.0,21,Netherlands,هلند,NED,NL,F,https://flagcdn.com/w80/nl.png
+22,179.0,22,Japan,ژاپن,JPN,JP,F,https://flagcdn.com/w80/jp.png
+23,360.0,23,Sweden,سوئد,SWE,SE,F,https://flagcdn.com/w80/se.png
+24,380.0,24,Tunisia,تونس,TUN,TN,F,https://flagcdn.com/w80/tn.png
+25,31.0,25,Belgium,بلژیک,BEL,BE,G,https://flagcdn.com/w80/be.png
+26,112.0,26,Egypt,مصر,EGY,EG,G,https://flagcdn.com/w80/eg.png
+27,168.0,27,Iran,ایران,IRN,IR,G,https://flagcdn.com/w80/ir.png
+28,240.0,28,New Zealand,نیوزیلند,NZL,NZ,G,https://flagcdn.com/w80/nz.png
+29,352.0,29,Spain,اسپانیا,ESP,ES,H,https://flagcdn.com/w80/es.png
+30,57.0,30,Cape Verde,کیپ ورد,CPV,CV,H,https://flagcdn.com/w80/cv.png
+31,316.0,31,Saudi Arabia,عربستان,KSA,SA,H,https://flagcdn.com/w80/sa.png
+32,398.0,32,Uruguay,اروگوئه,URU,UY,H,https://flagcdn.com/w80/uy.png
+33,132.0,33,France,فرانسه,FRA,FR,I,https://flagcdn.com/w80/fr.png
+34,322.0,34,Senegal,سنگال,SEN,SN,I,https://flagcdn.com/w80/sn.png
+35,169.0,35,Iraq,عراق,IRQ,IQ,I,https://flagcdn.com/w80/iq.png
+36,261.0,36,Norway,نروژ,NOR,NO,I,https://flagcdn.com/w80/no.png
+37,15.0,37,Argentina,آرژانتین,ARG,AR,J,https://flagcdn.com/w80/ar.png
+38,5.0,38,Algeria,الجزایر,ALG,DZ,J,https://flagcdn.com/w80/dz.png
+39,21.0,39,Austria,اتریش,AUT,AT,J,https://flagcdn.com/w80/at.png
+40,181.0,40,Jordan,اردن,JOR,JO,J,https://flagcdn.com/w80/jo.png
+41,278.0,41,Portugal,پرتغال,POR,PT,K,https://flagcdn.com/w80/pt.png
+42,,42,Democratic Republic of the Congo,جمهوری دموکراتیک کنگو,COD,CD,K,https://flagcdn.com/w80/cd.png
+43,399.0,43,Uzbekistan,ازبکستان,UZB,UZ,K,https://flagcdn.com/w80/uz.png
+44,77.0,44,Colombia,کلمبیا,COL,CO,K,https://flagcdn.com/w80/co.png
+45,117.0,45,England,انگلستان,ENG,ENG,L,https://flagcdn.com/w80/gb-eng.png
+46,88.0,46,Croatia,کرواسی,CRO,HR,L,https://flagcdn.com/w80/hr.png
+47,143.0,47,Ghana,غنا,GHA,GH,L,https://flagcdn.com/w80/gh.png
+48,269.0,48,Panama,پاناما,PAN,PA,L,https://flagcdn.com/w80/pa.png

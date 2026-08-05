@@ -1,0 +1,17 @@
+﻿stadium_id,source_stadium_id,stadium_name,fifa_name,city,country,capacity
+1,1,Estadio Azteca,Mexico City Stadium,Mexico City,Mexico,83000
+2,2,Estadio Akron,Estadio Guadalajara,Guadalajara (Zapopan),Mexico,48000
+3,3,Estadio BBVA,Estadio Monterrey,Monterrey (Guadalupe),Mexico,53500
+4,4,AT&T Stadium,Dallas Stadium,"Dallas (Arlington, Texas)",United States,94000
+5,5,NRG Stadium,Houston Stadium,Houston,United States,72000
+6,6,GEHA Field at Arrowhead Stadium,Kansas City Stadium,Kansas City,United States,73000
+7,7,Mercedes-Benz Stadium,Atlanta Stadium,Atlanta,United States,75000
+8,8,Hard Rock Stadium,Miami Stadium,Miami (Miami Gardens),United States,65000
+9,9,Gillette Stadium,Boston Stadium,Boston (Foxborough),United States,65000
+10,10,Lincoln Financial Field,Philadelphia Stadium,Philadelphia,United States,69000
+11,11,MetLife Stadium,New York/New Jersey Stadium,New York/New Jersey (East Rutherford),United States,82500
+12,12,BMO Field,Toronto Stadium,Toronto,Canada,45000
+13,13,BC Place,BC Place Vancouver,Vancouver,Canada,54000
+14,14,Lumen Field,Seattle Stadium,Seattle,United States,69000
+15,15,Levi's Stadium,San Francisco Bay Area Stadium,San Francisco Bay Area (Santa Clara),United States,71000
+16,16,SoFi Stadium,Los Angeles Stadium,Los Angeles (Inglewood),United States,70000

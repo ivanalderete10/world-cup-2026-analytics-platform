@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="160" viewBox="0 0 520 160">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#56d8ff"/><stop offset="1" stop-color="#1769ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="520" height="160" rx="28" fill="#06192f"/>
+  <circle cx="76" cy="80" r="48" fill="none" stroke="url(#g)" stroke-width="5"/>
+  <path d="M44 92 C57 83 63 66 75 70 C87 74 88 46 108 47" fill="none" stroke="url(#g)" stroke-width="7" stroke-linecap="round"/>
+  <path d="M99 38 L111 47 L99 56" fill="none" stroke="#56d8ff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M52 56 C44 65 44 78 52 88 M60 48 C71 41 84 42 94 49 M58 106 C71 116 88 116 100 105" fill="none" stroke="#2c8eff" stroke-width="3" opacity=".9"/>
+  <text x="145" y="67" fill="#fff" font-family="Arial, sans-serif" font-size="31" font-weight="700">WORLD CUP 2026</text>
+  <text x="145" y="104" fill="url(#g)" font-family="Arial, sans-serif" font-size="27" font-weight="700">ANALYTICS PLATFORM</text>
+  <text x="146" y="130" fill="#9db7cc" font-family="Arial, sans-serif" font-size="13" letter-spacing="2">DATA · PREDICTION · BUSINESS INTELLIGENCE</text>
+</svg>

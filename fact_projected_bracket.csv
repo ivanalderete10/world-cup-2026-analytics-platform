@@ -1,0 +1,32 @@
+﻿projected_match_id,match_id,round_type,date,team_a,team_b,team_a_display,team_b_display,projected_winner,projected_winner_display,winner_probability,decision_rule,next_match_id,bracket_side,team_a_id,team_b_id,projected_winner_id
+1,73,r32,06/28/2026 12:00,South Africa,Canada,🇿🇦 South Africa,🇨🇦 Canada,Canada,🇨🇦 Canada,0.819221,head_to_head_probability,90.0,Lado A / Semifinal 101,340,55,55
+2,74,r32,06/29/2026 16:30,Germany,Paraguay,🇩🇪 Germany,🇵🇾 Paraguay,Germany,🇩🇪 Germany,0.6938394999999999,head_to_head_probability,89.0,Lado A / Semifinal 101,142,273,142
+3,75,r32,06/29/2026 19:00,Netherlands,Morocco,🇳🇱 Netherlands,🇲🇦 Morocco,Netherlands,🇳🇱 Netherlands,0.7117829999999999,head_to_head_probability,90.0,Lado A / Semifinal 101,237,232,237
+4,76,r32,06/29/2026 12:00,Brazil,Japan,🇧🇷 Brazil,🇯🇵 Japan,Brazil,🇧🇷 Brazil,0.6352505,head_to_head_probability,91.0,Lado B / Semifinal 102,42,179,42
+5,77,r32,06/30/2026 17:00,France,Sweden,🇫🇷 France,🇸🇪 Sweden,France,🇫🇷 France,0.9512035000000001,head_to_head_probability,89.0,Lado A / Semifinal 101,132,360,132
+6,78,r32,06/30/2026 12:00,Ivory Coast,Norway,🇨🇮 Ivory Coast,🇳🇴 Norway,Norway,🇳🇴 Norway,0.8812215,head_to_head_probability,91.0,Lado B / Semifinal 102,176,261,261
+7,79,r32,06/30/2026 19:00,Mexico,Ecuador,🇲🇽 Mexico,🇪🇨 Ecuador,Ecuador,🇪🇨 Ecuador,0.613025,head_to_head_probability,92.0,Lado B / Semifinal 102,225,111,111
+8,80,r32,07/01/2026 12:00,England,Congo,🏴 England,🇨🇩 Congo,England,🏴 England,0.9598424999999999,head_to_head_probability,92.0,Lado B / Semifinal 102,117,79,117
+9,81,r32,07/01/2026 17:00,United States,Bosnia and Herzegovina,🇺🇸 United States,🇧🇦 Bosnia and Herzegovina,United States,🇺🇸 United States,0.5746305,head_to_head_probability,94.0,Lado A / Semifinal 101,392,39,392
+10,82,r32,07/01/2026 13:00,Belgium,Senegal,🇧🇪 Belgium,🇸🇳 Senegal,Senegal,🇸🇳 Senegal,0.549142,head_to_head_probability,94.0,Lado A / Semifinal 101,31,322,322
+11,83,r32,07/02/2026 19:00,Portugal,Croatia,🇵🇹 Portugal,🇭🇷 Croatia,Portugal,🇵🇹 Portugal,0.7231230000000001,head_to_head_probability,93.0,Lado A / Semifinal 101,278,88,278
+12,84,r32,07/02/2026 12:00,Spain,Austria,🇪🇸 Spain,🇦🇹 Austria,Spain,🇪🇸 Spain,0.9395915,head_to_head_probability,93.0,Lado A / Semifinal 101,352,21,352
+13,85,r32,07/02/2026 20:00,Switzerland,Algeria,🇨🇭 Switzerland,🇩🇿 Algeria,Switzerland,🇨🇭 Switzerland,0.6466324999999999,head_to_head_probability,96.0,Lado B / Semifinal 102,361,5,361
+14,86,r32,07/03/2026 18:00,Argentina,Cape Verde,🇦🇷 Argentina,🇨🇻 Cape Verde,Argentina,🇦🇷 Argentina,0.9598424999999999,head_to_head_probability,95.0,Lado B / Semifinal 102,15,57,15
+15,87,r32,07/03/2026 20:30,Colombia,Ghana,🇨🇴 Colombia,🇬🇭 Ghana,Colombia,🇨🇴 Colombia,0.9407555,head_to_head_probability,96.0,Lado B / Semifinal 102,77,143,77
+16,88,r32,07/03/2026 13:00,Australia,Egypt,🇦🇺 Australia,🇪🇬 Egypt,Australia,🇦🇺 Australia,0.7119059999999999,head_to_head_probability,95.0,Lado B / Semifinal 102,20,112,20
+17,89,r16,07/04/2026 17:00,Germany,France,🇩🇪 Germany,🇫🇷 France,France,🇫🇷 France,0.8625345,head_to_head_probability,97.0,Lado A / Semifinal 101,142,132,132
+18,90,r16,07/04/2026 12:00,Canada,Netherlands,🇨🇦 Canada,🇳🇱 Netherlands,Netherlands,🇳🇱 Netherlands,0.8914165000000001,head_to_head_probability,97.0,Lado A / Semifinal 101,55,237,237
+19,91,r16,07/05/2026 16:00,Brazil,Norway,🇧🇷 Brazil,🇳🇴 Norway,Brazil,🇧🇷 Brazil,0.770238,head_to_head_probability,99.0,Lado B / Semifinal 102,42,261,42
+20,92,r16,07/05/2026 18:00,Ecuador,England,🇪🇨 Ecuador,🏴 England,England,🏴 England,0.83011,head_to_head_probability,99.0,Lado B / Semifinal 102,111,117,117
+21,93,r16,07/06/2026 14:00,Portugal,Spain,🇵🇹 Portugal,🇪🇸 Spain,Spain,🇪🇸 Spain,0.717654,head_to_head_probability,98.0,Lado A / Semifinal 101,278,352,352
+22,94,r16,07/06/2026 17:00,United States,Senegal,🇺🇸 United States,🇸🇳 Senegal,Senegal,🇸🇳 Senegal,0.91218,head_to_head_probability,98.0,Lado A / Semifinal 101,392,322,322
+23,95,r16,07/07/2026 12:00,Argentina,Australia,🇦🇷 Argentina,🇦🇺 Australia,Argentina,🇦🇷 Argentina,0.941222,head_to_head_probability,100.0,Lado B / Semifinal 102,15,20,15
+24,96,r16,07/07/2026 13:00,Switzerland,Colombia,🇨🇭 Switzerland,🇨🇴 Colombia,Colombia,🇨🇴 Colombia,0.6131395,head_to_head_probability,100.0,Lado B / Semifinal 102,361,77,77
+25,97,qf,07/09/2026 16:00,France,Netherlands,🇫🇷 France,🇳🇱 Netherlands,France,🇫🇷 France,0.5943125,head_to_head_probability,101.0,Lado A / Semifinal 101,132,237,132
+26,98,qf,07/10/2026 12:00,Spain,Senegal,🇪🇸 Spain,🇸🇳 Senegal,Spain,🇪🇸 Spain,0.8971169999999999,head_to_head_probability,101.0,Lado A / Semifinal 101,352,322,352
+27,99,qf,07/11/2026 17:00,Brazil,England,🇧🇷 Brazil,🏴 England,England,🏴 England,0.5297229999999999,head_to_head_probability,102.0,Lado B / Semifinal 102,42,117,117
+28,100,qf,07/11/2026 20:00,Argentina,Colombia,🇦🇷 Argentina,🇨🇴 Colombia,Argentina,🇦🇷 Argentina,0.8557705,head_to_head_probability,102.0,Lado B / Semifinal 102,15,77,15
+29,101,sf,07/14/2026 14:00,France,Spain,🇫🇷 France,🇪🇸 Spain,Spain,🇪🇸 Spain,0.5736494999999999,head_to_head_probability,104.0,Lado A / Semifinal 101,132,352,352
+30,102,sf,07/15/2026 15:00,England,Argentina,🏴 England,🇦🇷 Argentina,Argentina,🇦🇷 Argentina,0.657427,head_to_head_probability,104.0,Lado B / Semifinal 102,117,15,15
+31,104,final,07/19/2026 15:00,Spain,Argentina,🇪🇸 Spain,🇦🇷 Argentina,Argentina,🇦🇷 Argentina,0.4992545,global_favorite_tiebreak,,Final,352,15,15
